@@ -1,6 +1,6 @@
 pip install virtualenv
 virtualenv .venv
 
-source .venv/Scripts/activate
+source .venv/bin/activate
 pip install -r requirements.txt
-pytest -vvvv
+python -m pytest -vvvv
