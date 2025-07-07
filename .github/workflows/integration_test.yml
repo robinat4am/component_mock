@@ -1,0 +1,14 @@
+name: "Component Tests"
+
+on:
+  repository_dispatch:
+    types:
+      - component-tests
+
+jobs:
+  component-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Component Tests
+        run: ./run-component-tests.sh
