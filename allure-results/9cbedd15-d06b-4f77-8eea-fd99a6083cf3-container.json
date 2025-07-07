@@ -1,0 +1,1 @@
+{"uuid": "47879e98-7bd7-418d-99eb-479f6e0d7565", "befores": [{"name": "pytestbdd_stepdef_then_the account balance should be ${new_balance:d}", "status": "passed", "start": 1751867486878, "stop": 1751867486878}], "start": 1751867486878, "stop": 1751867486879}

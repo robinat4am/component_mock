@@ -1,0 +1,5 @@
+pytest>=7.0.0
+pytest-bdd>=6.0.0
+pywin32
+allure-pytest
+requests
